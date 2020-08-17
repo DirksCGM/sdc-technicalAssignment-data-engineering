@@ -1,9 +1,15 @@
 import jobs
+import pipelines
 
 
-def main():
+def run_jobs():
     jobs.newsapi_job()
 
 
+def run_pipelines():
+    pipelines.newsapi_etl()
+
+
 if __name__ == '__main__':
-    main()
+    run_jobs()
+    run_pipelines()

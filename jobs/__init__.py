@@ -1,3 +1,3 @@
-from jobs import newsapi
+from jobs import newsapi_job
 
-newsapi_job = newsapi.main
+newsapi_job = newsapi_job.newsapi_job
